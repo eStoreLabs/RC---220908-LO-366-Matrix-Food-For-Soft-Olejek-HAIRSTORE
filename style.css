@@ -319,18 +319,22 @@
   justify-content: center;
   align-items: center;
   margin: 20px 2px;
-  min-width: 280px;
+  min-width: 230px;
   min-height: 400px;
 }
 #es-matrix.es-matrix .es-cross__img {
   width: 100%;
-  min-height: 350px;
+  min-height: 300px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: end;
 }
 #es-matrix.es-matrix .es-cross__img img {
   max-height: 300px;
+}
+#es-matrix.es-matrix .es-cross__img--small {
+  margin-bottom: 20px;
+  height: 200px;
 }
 #es-matrix.es-matrix .es-cross__text {
   text-align: center;
